@@ -55,10 +55,23 @@
     display:flex;
     justify-content:space-between; 
     width:100%;
+
   
 }
-    
-
+ 
+   @media  screen and (max-width:375px){
+    .conteneur-formulaire{
+        flex-direction: column !important ;
+    }
+    .conteneur-livraison{
+        margin-left:0px !important;
+        
+    }
+    .conteneur-infos{
+        border-right:0px !important;
+    }
+            
+}
 
  .conteneur-infos{
     width:50%;
