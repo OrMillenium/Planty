@@ -6,8 +6,8 @@
 } 
 .quantite{
     display:flex !important;
-    width:31% !important;
-    height:56px !important;
+    width:51% !important;
+    height:66px !important;
     background-color:red;
     
 }
@@ -23,7 +23,8 @@
     margin:0px !important;
     border-radius:5px 0 0 5px !important;
     text-align:center !important;
-    width:21px !important;
+    width:21% !important;
+    background-color:pink!important;
     
 }
 .plus {
@@ -67,7 +68,7 @@
 .ok{
     margin-left: 0px;
     padding:0px;
-    width:52%;
+    width:48%;
 
     
 }
