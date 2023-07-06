@@ -99,27 +99,30 @@ input[type=number] {
     /formulaire quantité page commande/
 
 
-
-
     .conteneur-principal-formquantite input[type="number"] {
-        height: 40px !important;
+        height: 30px !important;
         width: 50px !important;
         font-size: 15px !important;
     }
 
     .bouton-plus,
     .bouton-moins {
-        height: 20px !important;
-        width: 20px !important;
+        height: 33.5px !important;
+        width: 33.5px !important;
     }
 
     .bouton-quantite {
-        margin-right: 10px;
+        height: 66px !important;
+    }
+
+    .bouton-quantite .quantite {
+        height: 60px !important;
     }
 
     .bouton-ok [type="submit"] {
-        height: 40px;
+        height: 66px !important;
         width: 80px;
+
     }
 
 }
@@ -138,13 +141,13 @@ input[type=number] {
     .conteneur-principal-formquantite {
         display: flex;
         height: 80px;
-        width: 100%;
+        width: 80% !important;
         justify-content: center;
     }
 
     .conteneur-principal-formquantite input[type="number"] {
         height: 80px !important;
-        width: 100px !important;
+        width: 70px !important;
         font-size: 20px !important;
     }
 
@@ -166,7 +169,7 @@ input[type=number] {
     }
 
     .bouton-ok [type="submit"] {
-        height: 80px;
+        height: 80px !important;
         width: 140px;
         font-size: 20px;
     }
