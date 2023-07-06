@@ -12,3 +12,163 @@ Text Domain: neve
 Tags: blog, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
 */
 
+.conteneur-principal-formquantite {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.conteneur-quantite {
+    display: flex;
+}
+
+.quantite {
+    margin-top: 4px !important;
+}
+
+.conteneur-principal-formquantite input[type="number"] {
+    display: block !important;
+    height: 67px !important;
+    width: 65px !important;
+    border-radius: 8px 0 0 8px !important;
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+}
+
+.bouton-quantite {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 67px !important;
+    margin-top: 4px !important;
+    margin-right: 30px;
+    line-height: 0;
+
+}
+
+.bouton-plus,
+.bouton-moins {
+    display: block !important;
+    height: 33.5px !important;
+    width: 30px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bouton-plus {
+    border-bottom: solid 1px #FFFFFF !important;
+    border-top-right-radius: 8px !important;
+}
+
+.bouton-moins {
+    border-bottom-right-radius: 8px !important;
+}
+
+.bouton-ok [type="submit"] {
+    height: 67px;
+    border-radius: 8px !important;
+    width: 140px;
+    margin-top: 4px !important;
+}
+
+.wpcf7-spinner {
+    display: none !important;
+    text-align: center !important;
+
+}
+
+/* enleve les flèches de l'input number */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    /*autres navigateurs*/
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+    appearance: none;
+    /* Firefox */
+}
+
+@media (max-width: 1024px) {
+
+    /formulaire quantité page commande/
+
+
+
+
+    .conteneur-principal-formquantite input[type="number"] {
+        height: 40px !important;
+        width: 50px !important;
+        font-size: 15px !important;
+    }
+
+    .bouton-plus,
+    .bouton-moins {
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .bouton-quantite {
+        margin-right: 10px;
+    }
+
+    .bouton-ok [type="submit"] {
+        height: 40px;
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    /taille image fruits/
+
+    .wpr-grid-image-wrap {
+        width: 90%;
+        text-align: center;
+    }
+
+ 
+
+    .conteneur-principal-formquantite {
+        display: flex;
+        height: 80px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .conteneur-principal-formquantite input[type="number"] {
+        height: 80px !important;
+        width: 100px !important;
+        font-size: 20px !important;
+    }
+
+    .bouton-quantite {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 80px !important;
+        margin-top: 4px !important;
+        margin-right: 20px;
+    }
+
+    .bouton-plus,
+    .bouton-moins {
+        display: block !important;
+        height: 40px !important;
+        width: 45px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .bouton-ok [type="submit"] {
+        height: 80px;
+        width: 140px;
+        font-size: 20px;
+    }
+
+}
